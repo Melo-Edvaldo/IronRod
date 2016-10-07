@@ -5,7 +5,11 @@
  */
 package ironrod;
 
+import java.util.HashSet;
+import model.Location;
+import model.Obstacle;
 import model.Person;
+import model.Quiz;
 
 /**
  *
@@ -25,8 +29,25 @@ public class IronRod {
        person.setGender('F');
        person.setRole("sister");
        person.setHealthPoints(100);
-       
        System.out.println(person.toString());
+       
+       Quiz quiz = new Quiz();
+       quiz.setScripture("Moroni 10:3-5");
+       quiz.setQuestion("T or F: This scripture is a scripture mastery.");
+       quiz.setAnswer('T');
+       System.out.println(quiz.toString());
+       
+       Obstacle obstacle = new Obstacle();
+       obstacle.setName("Drugs Offered");
+       obstacle.setDescription("A friend of your teeanage daughter has offered her a joint.");
+       obstacle.setOvercome(false);
+       System.out.println(obstacle.toString()); 
+       
+       Location location = new Location();
+       location.setRow(3);
+       location.setColumn(6);
+       location.setVisited(false);
+       System.out.println(location.toString());
     }
     
 }
