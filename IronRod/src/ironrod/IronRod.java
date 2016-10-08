@@ -16,7 +16,7 @@ import model.Quiz;
 
 /**
  *
- * @author kburkart
+ * @author kburkart and Edvaldo de Oliveira Melo
  */
 public class IronRod {
 
