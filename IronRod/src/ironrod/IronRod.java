@@ -5,7 +5,6 @@
  */
 package ironrod;
 
-import java.util.HashSet;
 import model.Family;
 import model.Game;
 import model.Location;
