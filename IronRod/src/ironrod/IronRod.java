@@ -6,7 +6,10 @@
 package ironrod;
 
 import java.util.HashSet;
+import model.Family;
+import model.Game;
 import model.Location;
+import model.Map;
 import model.Obstacle;
 import model.Person;
 import model.Quiz;
@@ -48,6 +51,20 @@ public class IronRod {
        location.setColumn(6);
        location.setVisited(false);
        System.out.println(location.toString());
+       
+       Family family = new Family();
+       family.setNumberOfPeople(6);
+       System.out.println(family.toString());
+       
+       Game game = new Game();
+       game.setTotalTime(30);
+       game.setNumberOfPlayers(2);
+       System.out.println(game.toString());
+       
+       Map map = new Map();
+       map.setRowCount(3);
+       map.setColumnCount(6);
+       System.out.println(map.toString());
     }
     
 }
