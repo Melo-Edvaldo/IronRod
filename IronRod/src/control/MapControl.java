@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author Edvaldo de Oliveira Melo
  */
+
 package control;
 
-/**
- *
- * @author EdvaldoMelo
- */
-public class MapControl {
+    public class MapControl {
     
+        public boolean move(boolean person, boolean position) {
+            
+        }
+        
+        public boolean validLocation(boolean person, boolean position) {
+            
+        }
+        
+        public boolean visitObstacleLocation(boolean person, boolean obstacleScene) {
+            
+        }
+        
+        public boolean visitQuizLocation(boolean person, boolean quizScene) {
+            
+        }
 }

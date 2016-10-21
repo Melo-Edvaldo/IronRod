@@ -1,14 +1,40 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @author Edvaldo de Oliveira Melo
  */
+
 package control;
 
-/**
- *
- * @author EdvaldoMelo
- */
-public class GameControl {
-    
+    public class GameControl {
+        
+        public boolean startNewGame() {
+            
+        }
+        
+        public boolean createNewPlayer() {
+            
+        }
+        
+        public boolean continueGame() {
+            
+        }
+        
+        public boolean saveGame(boolean Player) {
+            
+        }
+        
+        public boolean restoreGame(boolean Player) {
+            
+        }
+        
+        public boolean pauseGame() {
+            
+        }
+        
+        public boolean resetGame() {
+            
+        }
+        
+        public boolean quitGame() {
+            
+        }
 }

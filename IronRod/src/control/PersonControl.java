@@ -1,14 +1,31 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+        
+
+
 package control;
 
-/**
- *
- * @author EdvaldoMelo
- */
-public class PersonControl {
-    
+    public class PersonControl {
+        
+        public boolean gainHP(boolean prayToOvercome, boolean answerQuiz) {
+            
+        }
+        
+        public int loseHP(int wrongAnswer) {
+            
+        }
+        
+        public boolean move(boolean map, boolean location) {
+            
+        }
+        
+        public String enterName() {
+            
+        }
+        
+        public int enterAge() {
+            
+        }
+        
+        public String enterRole() {
+            
+        }
 }
