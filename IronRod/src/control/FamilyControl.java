@@ -5,8 +5,16 @@ package control;
 
     public class FamilyControl {
         
-        public int enterNumberOfPeople() {
+        public int enterNumberOfPeople(int number) {
             
+            if (number <= 0) {
+                return -1;
+            }
+            
+            if (number > 0) {
+                return -1;
+            }
+            
+            return number;
         }
-    
 }    

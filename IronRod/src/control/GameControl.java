@@ -1,13 +1,21 @@
 /**
  * @author Edvaldo de Oliveira Melo
  */
-
 package control;
 
     public class GameControl {
         
-        public boolean startNewGame() {
+        public boolean startNewGame(answer) {
             
+            if (answer < 0) {
+                return -1;
+            }
+            
+            if (answer > 0) {
+                return -1;
+            }
+            
+            return answer;
         }
         
         public boolean createNewPlayer() {
